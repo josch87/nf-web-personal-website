@@ -1,0 +1,40 @@
+:root {
+  --button-color-nav: rgb(61, 61, 61);
+  --button-background-nav: rgb(198, 198, 198);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  margin: auto;
+}
+
+h1 {
+  display: inline;
+}
+
+nav {
+  display: inline;
+  float: right;‚
+}
+
+nav ul {
+    display: inline
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav a {
+  color: var(--button-color-nav);
+  text-decoration: none;
+  background-color: var(--button-background-nav);
+  padding: 5px 10px;
+}
