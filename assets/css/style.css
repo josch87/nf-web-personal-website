@@ -1,6 +1,8 @@
 :root {
   --button-color-nav: rgb(61, 61, 61);
+  --button-color-nav-hover: rgb(61, 61, 61), 0.8;
   --button-background-nav: rgb(198, 198, 198);
+  --button-background-nav-hover: rgb(198, 198, 198, 0.8);
 }
 
 * {
@@ -37,4 +39,9 @@ nav a {
   text-decoration: none;
   background-color: var(--button-background-nav);
   padding: 5px 10px;
+}
+
+nav a:hover {
+    color: var(--button-color-nav-hover);
+    background-color: var(--button-background-nav-hover);
 }
