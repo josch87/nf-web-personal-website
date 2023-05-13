@@ -3,6 +3,7 @@
   --button-color-nav-hover: rgb(61, 61, 61, 1);
   --button-background-nav: rgb(198, 198, 198, 1);
   --button-background-nav-hover: rgb(198, 198, 198, 0.8);
+  --badge-background-color: #b8cb55;
 }
 
 * {
@@ -44,4 +45,17 @@ nav a {
 nav a:hover {
   color: var(--button-color-nav-hover);
   background-color: var(--button-background-nav-hover);
+}
+
+.badge {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.badge li {
+  margin: 2px 5px 2px 0;
+  padding: 2px 2px;
+  border: 1px solid red;
+  background-color: var(--badge-background-color);
 }
