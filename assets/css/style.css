@@ -60,3 +60,14 @@ nav a:hover {
   border: 1px solid var(--badge-color);
   background-color: var(--badge-background-color);
 }
+
+.platforms {
+  display: flex;
+  flex-wrap: wrap;
+}
+.platforms img {
+  width: 100%;
+}
+.platforms figure {
+  width: 33%;
+}
